@@ -135,8 +135,8 @@ select:-webkit-autofill:focus {
 /* PHONE-HEADER */
 
 .phn-header {
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 .phn-container {
@@ -167,8 +167,8 @@ select:-webkit-autofill:focus {
 /* INST-HEADER */
 
 .inst-header {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 .inst-header__container {
@@ -176,8 +176,6 @@ select:-webkit-autofill:focus {
     align-items: center;
     justify-content: space-between;
 }
-
-.container {}
 
 .inst__header__f {
     display: flex;
@@ -302,8 +300,8 @@ select:-webkit-autofill:focus {
 .inst-clmn2__btn {
     padding-top: 8px;
     padding-bottom: 8px;
-    padding-left: 110px;
-    padding-right: 110px;
+    padding-left: 125px;
+    padding-right: 125px;
     background-color: var(--gray);
     display: flex;
     color: var(--white);
