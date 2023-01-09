@@ -13,8 +13,8 @@
 /* GLOBAL */
 
 *:focus {
-    outline: 3px dotted var();
-    outline-offset: 3px;
+    outline: 0.6px dotted var(--black);
+    outline-offset: 1px;
 }
 
 html {
@@ -214,6 +214,7 @@ select:-webkit-autofill:focus {
 .inst__header__s-btn {
     background-color: transparent;
     cursor: pointer;
+    border: 0;
 }
 
 .inst__header__s-btn:not(:last-child) {
@@ -309,6 +310,7 @@ select:-webkit-autofill:focus {
     cursor: pointer;
     border-radius: 9px;
     margin-right: 4px;
+    border: 0;
 }
 
 .inst-clmn2__add {
@@ -318,6 +320,7 @@ select:-webkit-autofill:focus {
     justify-content: center;
     padding: 8.6px;
     border-radius: 9px;
+    border: 0;
 }
 
 .inst-clmn2__icon {
@@ -379,6 +382,7 @@ select:-webkit-autofill:focus {
     padding-bottom: 5px;
     padding-left: 54px;
     padding-right: 53px;
+    border: 0;
 }
 
 .inst-clmn3__header-btn:hover {
@@ -419,8 +423,9 @@ select:-webkit-autofill:focus {
 /* FOOTER */
 
 .inst-footer {
+    border-top: 2px solid rgba(40, 40, 40, 0.194);
     padding-top: 10px;
-    padding-bottom: 16px;
+    padding-bottom: 36px;
 }
 
 .inst-footer__container {
@@ -430,12 +435,12 @@ select:-webkit-autofill:focus {
 }
 
 .inst-footer__btn {
-    cursor: pointer;
-    background-color: transparent;
+    width: 20px;
+    height: 20px;
 }
 
 .inst-footer__btn:not(:last-child) {
-    margin-right: 40px;
+    margin-right: 54px;
 }
 
 .inst-footer__icon {
@@ -458,9 +463,6 @@ select:-webkit-autofill:focus {
 
 /* HOME.HTML */
 
-
-/*  */
-
 .home {
     padding-top: 8px;
     padding-bottom: 8px;
@@ -469,6 +471,7 @@ select:-webkit-autofill:focus {
 .home__container {
     display: flex;
     align-items: center;
+    justify-content: right;
 }
 
 .home__btn {
@@ -477,6 +480,7 @@ select:-webkit-autofill:focus {
     background-color: transparent;
     padding: 3px;
     cursor: pointer;
+    border: 0;
 }
 
 .home__btn:not(:last-child) {
@@ -508,6 +512,7 @@ select:-webkit-autofill:focus {
     border: 1px solid var(--grey);
     border-radius: 50%;
     cursor: pointer;
+    border: 0;
 }
 
 .home-clmn1__btn:not(:last-child) {
@@ -547,6 +552,7 @@ select:-webkit-autofill:focus {
     cursor: pointer;
     display: flex;
     justify-content: center;
+    border: 0;
 }
 
 .home-clmn2__header-icon {
@@ -566,6 +572,7 @@ select:-webkit-autofill:focus {
     justify-content: center;
     background-color: transparent;
     cursor: pointer;
+    border: 0;
 }
 
 
@@ -603,6 +610,7 @@ select:-webkit-autofill:focus {
     background-color: transparent;
     padding: 2px;
     cursor: pointer;
+    border: 0;
 }
 
 .home-clmn2__hero-icon1-btn:not(:last-child) {
@@ -661,6 +669,7 @@ select:-webkit-autofill:focus {
     background-color: transparent;
     padding: 2px;
     cursor: pointer;
+    border: 0;
 }
 
 .home-clmn2__hero-icons3-icon {
@@ -680,11 +689,209 @@ select:-webkit-autofill:focus {
 
 .home-clmn2__hero-text {
     margin-top: 0;
-    font-weight: 600;
+    font-weight: 300;
     /* padding-left: 10px;
     padding-right: 10px; */
     font-size: 13px;
     line-height: 16px;
+}
+
+
+/* FIND.HTML */
+
+.find {}
+
+.find__container {}
+
+.find-header {
+    margin-top: 0;
+    margin-bottom: 2px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.find-header__input {
+    padding: 8px;
+    width: 358px;
+    color: rgba(215, 215, 215, 0.388);
+    height: 32px;
+    background: #262626;
+    border-radius: 7px;
+    border: 0;
+}
+
+.find-imgs {
+    margin-top: 0;
+    display: flex;
+}
+
+.find-imgs__1 {
+    width: 258px;
+    height: 258px;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    margin-right: 1px;
+}
+
+.find-imgs__1__img {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.find-imgs__1__img:not(:last-child) {
+    margin-right: 2px;
+}
+
+.find-imgs__2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 127px;
+    height: 258px;
+}
+
+.find-imgs__2__img {}
+
+
+/* .img1 {
+    width: 127px;
+    height: 127px;
+}
+
+.img2 {
+    width: 127px;
+    height: 259px;
+} */
+
+
+/* SHOP.HTML */
+
+.shop {}
+
+.shop__container {}
+
+.shop-header {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.shop-header__1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shop-header__1-title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+}
+
+.shop-header__1-icons {
+    display: flex;
+    align-items: center;
+}
+
+.shop-header__2 {
+    display: flex;
+    justify-content: center;
+}
+
+.shop-header__2-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.shop-header__2-item {}
+
+.shop-header__2-item:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.shop-header__2-input {
+    padding: 8px;
+    width: 358px;
+    color: rgba(255, 255, 255, 0.388);
+    height: 32px;
+    background: #262626;
+    border-radius: 7px;
+    border: 0;
+}
+
+.shop-header__2-btn {
+    padding: 8px;
+    width: 358px;
+    color: var(--white);
+    height: 32px;
+    background: #262626;
+    border-radius: 7px;
+    border: 0;
+    cursor: pointer;
+}
+
+
+/* .shop__header-input {
+    display: flex;
+    justify-content: center;
+}
+
+.shop__header-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    cursor: pointer;
+    padding: 8px;
+    width: 390px;
+    height: 32px;
+    background: #262626;
+    border-radius: 7px;
+    border: 0;
+    color: var(--white);
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px;
+} */
+
+
+/* .shop__header-btn {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 7px;
+    color: var(--white);
+    background-color: var(--black);
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px;
+} */
+
+.shop__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.shop__item {
+    height: 194px;
+    margin-bottom: 2px;
+}
+
+.shop__item:not(:last-child) {
+    margin-right: 1px;
+}
+
+.shop__img {
+    width: 194px;
+    height: 194px;
 }
 
 
