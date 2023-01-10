@@ -382,11 +382,11 @@ select:-webkit-autofill:focus {
     padding-bottom: 5px;
     padding-left: 54px;
     padding-right: 53px;
-    border: 0;
+    border: 2px solid var(--black);
 }
 
 .inst-clmn3__header-btn:hover {
-    border-bottom: 2px solid var(--grey);
+    border-bottom: 2px solid rgba(59, 59, 59, 0.457);
 }
 
 .inst-clmn3__header-icon {
@@ -401,6 +401,7 @@ select:-webkit-autofill:focus {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .inst-clmn3__item {
